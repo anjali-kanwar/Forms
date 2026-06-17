@@ -1,11 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        AAI Proficiency Check Management System
+    </title>
+
+    <link rel="stylesheet"
+        href="css/common.css">
+
 </head>
+
 <body>
-    
+
+    <div class="container">
+
+        <div class="header">
+
+            <img
+                src="assets/logo.png"
+                alt="AAI Logo"
+                class="logo">
+
+            <h1>
+                Airports Authority of India
+            </h1>
+
+            <h2>
+                ATC Proficiency Check Management System
+            </h2>
+
+        </div>
+
+        <div class="card">
+
+            <label>
+                Select Proficiency Check Form
+            </label>
+
+            <select id="formSelect">
+
+                <option value="">
+                    -- Select Form --
+                </option>
+
+                <option value="forms/adc.html">
+                    Form 27 - ADC
+                </option>
+
+                <option value="forms/adc-appp.html">
+                    Form 28 - ADC-APP(P)
+                </option>
+
+                <option value="forms/appp.html">
+                    Form 29 - APP(P)
+                </option>
+
+                <option value="forms/apps.html">
+                    Form 30 - APP(S)
+                </option>
+
+                <option value="forms/appp-apps.html">
+                    Form 31 - APP(P)-APP(S)
+                </option>
+
+                <option value="forms/accp-occ.html">
+                    Form 32 - ACC(P)/OCC
+                </option>
+
+                <option value="forms/accs.html">
+                    Form 33 - ACC(S)
+                </option>
+
+                <option value="forms/accp-accs.html">
+                    Form 34 - ACC(P)-ACC(S)
+                </option>
+
+            </select>
+
+            <button
+                id="openBtn">
+
+                Open Form
+
+            </button>
+
+        </div>
+
+        <div class="footer">
+
+            Jaipur International Airport
+
+        </div>
+
+    </div>
+
+    <script src="js/common.js"></script>
+
 </body>
+
 </html>
